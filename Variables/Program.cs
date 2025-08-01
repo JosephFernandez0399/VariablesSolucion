@@ -159,10 +159,61 @@ namespace Variables
             Console.WriteLine(numbers[0]);
             Console.WriteLine(numbers[1]);
             Console.WriteLine(numbers[2]);
+            Console.WriteLine(numbers[2]);
+            Console.WriteLine(numbers[2]);
+            Console.WriteLine(numbers[2]);
+
+            int[] numerosEdificios = new int[5] { 1, 2, 3, 4, 5 };
+            for (int i = 0; i < numerosEdificios.Length; i++)
+            {
+                Console.WriteLine(numerosEdificios[i]);
+            }
+            // Array with type bool
+
+            bool[] estados = new bool[3];
+            estados[0] = true;
+
+            for (int i = 0; i < estados.Length; i++)
+            {
+                Console.WriteLine(estados[i]);
+            }
+
+
+            // Array with type String
+
+            String[] nombreArray = new string[3] { "l", "j", "p" };
+
+            for (int i = 0; i < nombreArray.Length; i++)
+            {
+                Console.WriteLine(nombreArray[i]);
+            }
+
+            // Sequence of characters that are grouped together 
+            // String literal
+            String name12 = "joseph";
+            String LastName = "Henry";
+
+            // String Contatenation
+            String fullName = name12 + LastName;
+
+            // String Format
+            string fulName = String.Format("{0} {1}", name12, LastName);
+            Console.WriteLine(fullName);
+
+            // String join
+            int[] Number = new int[5] { 1, 2, 3, 4, 5 };
+            String listNumber = String.Join(",", Number);
+            Console.WriteLine(listNumber);
+            Console.WriteLine(listNumber);
+            Console.WriteLine(listNumber);
+
+
+
+            Console.ReadKey();
+
 
 
 
         }
     }
 }
-A<
