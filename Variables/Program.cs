@@ -203,6 +203,8 @@ namespace Variables
             int[] Number = new int[5] { 1, 2, 3, 4, 5 };
             String listNumber = String.Join(",", Number);
             Console.WriteLine(listNumber);
+            Console.WriteLine(listNumber);
+            Console.WriteLine(listNumber);
 
 
 
