@@ -38,7 +38,7 @@ namespace Variables
             User2.nombre = "Ana";
             User2.Presentarse();
 
-           
+
             // we declare a class with the name "Persona" and then we chenge the value  for true
             Persona.estado = true;
             Console.WriteLine(Persona.estado);
@@ -59,7 +59,7 @@ namespace Variables
             string palabra = "Hola";
 
             // String format
-            Console.WriteLine("Mi numero es: {0} y mi contador es {1}",numero, contador);
+            Console.WriteLine("Mi numero es: {0} y mi contador es {1}", numero, contador);
 
             Console.WriteLine(numero);
             Console.WriteLine(contador);
@@ -67,7 +67,6 @@ namespace Variables
             Console.WriteLine(letra);
             Console.WriteLine(estoFunciona);
             Console.WriteLine(palabra);
-            Console.ReadKey();
 
             // CONVERCION DE DATOS
             // Convercion implicita
@@ -206,6 +205,18 @@ namespace Variables
             Console.WriteLine(listNumber);
             Console.WriteLine(listNumber);
             Console.WriteLine(listNumber);
+
+
+            // scape characters
+            /*
+             * 
+             */
+
+            Console.WriteLine("Hola\nMundo");
+            // VARBTIM STRING 
+            string patch  =
+
+                String nombre = "joseph"
 
 
 
