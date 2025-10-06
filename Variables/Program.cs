@@ -214,7 +214,7 @@ namespace Variables
 
             Console.WriteLine("Hola\nMundo");
             // VARBTIM STRING 
-            string patch  =
+            string patch  = 
 
                 String nombre = "joseph"
 
